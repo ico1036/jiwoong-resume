@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jiwoong Kim — Quantitative Researcher</title>
+<style>
+  :root{ --ink:#111; --rule:#ccc; --deep:#0B7C8C; }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; background:#f2f2f2; color:var(--ink);
+    font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:11pt; line-height:1.45;
+  }
+  .page{
+    max-width:210mm; margin:24px auto; background:#fff;
+    padding:22mm 20mm; box-shadow:0 2px 14px rgba(0,0,0,.12);
+  }
+  h1{ font-size:16pt; text-align:center; margin:0 0 10pt; letter-spacing:.02em; }
+  .contact{ font-size:10.5pt; margin:0 0 18pt; text-align:center; }
+  h2{ font-size:11.5pt; text-transform:uppercase; margin:20pt 0 8pt; letter-spacing:.02em; }
+  h3{ font-size:11pt; margin:14pt 0 6pt; }
+  h4{ font-size:10.5pt; font-style:italic; margin:12pt 0 6pt; }
+  p{ margin:0 0 8pt; }
+  ul{ margin:0 0 10pt; padding-left:18pt; }
+  li{ margin:0 0 4pt; }
+  a{ color:#1155cc; }
+  .annotate-tip{
+    max-width:210mm; margin:18px auto -8px; padding:12px 16px;
+    background:#EAF7F9; border:1.5px solid var(--deep); border-radius:12px;
+    font-size:10.5pt; color:#0B4A54;
+  }
+  @media (max-width:640px){
+    body{ font-size:10pt; }
+    .page{ margin:10px; padding:22px 16px; box-shadow:0 1px 8px rgba(0,0,0,.10); }
+    .annotate-tip{ margin:10px 10px -4px; }
+    h1{ font-size:14.5pt; }
+    .contact{ word-break:break-all; }
+  }
+  @media print{
+    body{ background:#fff; }
+    .page{ box-shadow:none; margin:0; max-width:none; padding:0; }
+    .annotate-tip{ display:none; }
+    @page{ size:A4; margin:22mm 20mm; }
+    a{ color:inherit; text-decoration:underline; }
+    li{ break-inside:avoid; }
+    h2,h3,h4{ break-after:avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="annotate-tip">✏️ <b>문장을 드래그하면 첨삭을 남길 수 있습니다.</b>
+Drag any sentence to leave an inline comment — powered by
+<a href="https://web.hypothes.is/start/">Hypothesis</a> (free account, 30 seconds to sign up).
+Comments anchor to the exact sentence you select.</div>
+
+<div class="page">
+
+<h1>JIWOONG KIM</h1>
+<p class="contact">Seoul, Korea | <a href="mailto:jkimak1124@gmail.com">jkimak1124@gmail.com</a> |
+<a href="https://www.linkedin.com/in/jiwoong-kim-b9934417a">linkedin.com/in/jiwoong-kim-b9934417a</a></p>
+
+<h2>Summary</h2>
+<p>Quantitative Researcher (Ph.D. Physics) who conceived and drove a self-directed three-phase
+research agenda: run one ML model live with real capital → industrialize multi-style portfolio
+generation → automate the research process itself with a multi-agent system. Every phase closed
+with externally verifiable evidence — a published fund track record, an institution's
+due-diligence-backed MOU, and controlled experiments on the research harness itself (p = 0.004).
+Seeking to bring scalable, AI-native alpha research capability to a systematic investment platform.</p>
+
+<h2>Experience</h2>
+
+<h3>Quantitative Researcher | Alpha Bridge (formerly Asset Plus AM), Seoul | Mar 2024 – Present</h3>
+<p>Conceived, proposed, and led a three-phase initiative to evolve the firm's research
+infrastructure from one live model to an autonomous research system.</p>
+
+<h4>Phase 1 — Launched Firm's First ML-Based Public Mutual Fund</h4>
+<ul>
+  <li>Built and operate a tree-based fundamental alpha model for a publicly offered US equity
+      mutual fund — concentrated ~30-name S&amp;P 500 universe, long-only, unlevered.</li>
+  <li>Live track record since Sep 2024 (published fund fact sheet, as of Aug 2026):
+      <b>+53.1% cumulative vs +35.4% benchmark (+17.7pp)</b>; 1-year +29.4% vs +22.2%,
+      top-quartile peer rank.</li>
+  <li><b>Jensen's alpha +6.9%/yr at 0.77 beta</b> (trailing 1-year); beat the benchmark in
+      8 of 12 months, including 4 of 5 benchmark-down months.</li>
+  <li>Run the full production loop end-to-end: signal generation → portfolio construction → execution
+      support → performance monitoring.</li>
+</ul>
+
+<h4>Phase 2 — Multi-Style Portfolio Generation Pipeline &amp; Institutional Validation</h4>
+<ul>
+  <li>Built an automated pipeline that generates diverse financial-factor-based target labels, trains
+      prediction models for each, and backtests to populate the risk-return plane — enabling clients to
+      select portfolio styles that match their preferences.</li>
+  <li>Secured a strategy-supply MOU with Daol Asset Management following external due diligence.</li>
+</ul>
+
+<h4>Phase 3 — Automating Research Itself: Agentic Alpha Factory (Team Lead)</h4>
+<ul>
+  <li>Leading a 2-person team building a multi-agent alpha factory that automates idea generation →
+      code generation → backtesting → signal evolution, producing diversified, low-correlation alpha
+      candidates at scale.</li>
+  <li>Built a recursive self-improvement loop: every outcome, including failed experiments, feeds
+      back into the next research cycle. Verified by controlled ablation — same base model
+      (Claude Fable 5) with vs. without the loop, graded blind on realized outcomes:
+      3.6/10 vs 6.9/10 (chance ≈ 2.5), permutation test <b>p = 0.004</b>.</li>
+  <li>Automated generation of 1,000+ strategy ideas per day with alpha synthesis into composite
+      signals.</li>
+  <li>Composite alpha from the factory — 6 interpretable fundamental signals, long-only, unlevered:
+      IR vs S&amp;P 500 held out-of-sample, <b>1.06 in-sample (2010–23) → 1.11 OOS (2024–26) →
+      1.18 including a 4-month live paper-trading period</b>; OOS CAGR 28.6% vs 15.9% benchmark.</li>
+</ul>
+
+<h2>Education</h2>
+<ul>
+  <li>Ph.D. in Particle Physics | Kyungpook National University | 2019 – 2024</li>
+  <li>M.S. in Particle Physics | Kyungpook National University | 2017 – 2019</li>
+  <li>B.S. in Physics | Kyungpook National University | 2013 – 2017</li>
+</ul>
+
+<h2>Research: Signal Extraction Under Extreme Noise (CERN LHC)</h2>
+<ul>
+  <li>Pioneered CNN-based classification at a collaboration that relied on traditional physicist-driven
+      methods, achieving 1.85x signal efficiency improvement.</li>
+  <li>Published results at ACAT 2021 and awarded Best Paper at Korean Physical Society (2020) and
+      Korean Society for Computational Science &amp; Engineering (2021).</li>
+  <li>Distributed deep learning across 1,024 compute nodes (KISTI Nurion HPC).</li>
+  <li>Publication: <a href="https://iopscience.iop.org/article/10.1088/1742-6596/2438/1/012103">J. Phys.: Conf. Ser. 2438 012103 (ACAT 2021 proceedings)</a></li>
+</ul>
+
+<h2>Skills</h2>
+<ul>
+  <li>Languages: Python, SQL, Shell (Linux/macOS)</li>
+  <li>ML / Stats: XGBoost, PyTorch, scikit-learn, pandas, polars, NumPy</li>
+  <li>AI Agent: Harness engineering (Claude Code, OpenClaw)</li>
+  <li>Infrastructure: Git, Docker</li>
+</ul>
+
+</div>
+
+<script src="https://hypothes.is/embed.js" async></script>
+</body>
+</html>
